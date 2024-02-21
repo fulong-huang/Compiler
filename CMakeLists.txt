@@ -10,5 +10,7 @@ include_directories(src include)
 add_executable(Compiler
 	main.cpp
 	src/FileReader.cpp
+	src/FileWriter.cpp
+	src/Parser.cpp
 )
 
